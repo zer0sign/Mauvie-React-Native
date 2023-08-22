@@ -138,8 +138,8 @@ export default function Movie({ navigation, route }) {
                         movieId={actor.id}
                         thumbnail_url={actor.profile_path}
                         score={actor.popularity}
-                        width={115}
-                        height={115}
+                        width={95}
+                        height={95}
                       />
                     ))}
               </View>

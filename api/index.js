@@ -6,7 +6,7 @@ const instance = axios.create({
     timeout: 20000, // Batas waktu maksimal untuk permintaan
     headers: {
         accept: 'application/json',
-        Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI4OWM4YjA0YTNhZDAxZjkxZmM2ZDRhYjk3MjVmYThhNSIsInN1YiI6IjY0ZGVlODhjMzcxMDk3MDBjNTFlMzUwOCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.epBBa-Eg4wCLhFWFn2RefxPK_2cDGMWnmQRXEBnsAY4'
+        Authorization: '' // isi dengan bearer token dari https://www.themoviedb.org/
       }
 });
 const api_key = ""; // untuk mendapatkan apikey silahkan buka https://www.themoviedb.org/ untuk mendapatkan api_key
