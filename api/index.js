@@ -9,7 +9,7 @@ const instance = axios.create({
         Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI4OWM4YjA0YTNhZDAxZjkxZmM2ZDRhYjk3MjVmYThhNSIsInN1YiI6IjY0ZGVlODhjMzcxMDk3MDBjNTFlMzUwOCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.epBBa-Eg4wCLhFWFn2RefxPK_2cDGMWnmQRXEBnsAY4'
       }
 });
-const api_key = "89c8b04a3ad01f91fc6d4ab9725fa8a5";
+const api_key = ""; // untuk mendapatkan apikey silahkan buka https://www.themoviedb.org/ untuk mendapatkan api_key
   export const getMovies = async () => {
     try {
         const response = await instance.get('/discover/movie');
